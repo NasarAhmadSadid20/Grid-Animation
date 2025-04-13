@@ -3,7 +3,7 @@
 .container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 15px;
+    gap: 14px;
     background-color: lightgray;
     padding: 15px;
 
@@ -12,9 +12,9 @@
     background-color: steelblue;
     color: #FFF;
     text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    animation: nesar 5s linear alternate infinite;
+    padding: 21px;
+    font-size: 21px;
+    animation: nesar 6s linear alternate infinite;
 }
 
 @keyframes nesar {
