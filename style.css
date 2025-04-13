@@ -1,0 +1,36 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    background-color: lightgray;
+    padding: 15px;
+
+}
+.box{
+    background-color: steelblue;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    animation: nesar 5s linear alternate infinite;
+}
+
+@keyframes nesar {
+ 0%{
+    margin-top: 0px;
+ }
+ 100%{
+    margin-top: 100px;
+ }
+    
+}
+
+@media (max-width:600px) {
+    .container{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    
+}
